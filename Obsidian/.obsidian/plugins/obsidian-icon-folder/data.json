@@ -1,0 +1,44 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiMap",
+      "LiBookHeart",
+      "LiFileHeart",
+      "LiPencilLine",
+      "LiCalendarHeart"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false
+  },
+  "01 Projects": "LiPenTool",
+  "02 Area's": "LiBox",
+  "03 Resources": "LiBookHeart",
+  "07 Archive": "LiArchive",
+  "06 - Daily": "LiCalendarHeart",
+  "05 - Fleeting": "LiPencilLine",
+  "04 - Permanent": "LiFileHeart",
+  "00 -Maps of Content": "LiMap"
+}

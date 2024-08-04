@@ -1,0 +1,388 @@
+{
+  "choices": [
+    {
+      "id": "3ee75470-0b08-4792-9f48-de38f235afe4",
+      "name": "Quick Thought",
+      "type": "Template",
+      "command": false,
+      "templatePath": "99 - Meta/Templates/Quick Thought.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "/3. Resources/quick_thought/{{DATE:MM.DD.YY}}_{{value}}.md"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "dc753df2-568d-4386-aaf1-dc79b16cd4ee",
+      "name": "Quick Thought Macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "44f3793f-1193-4750-b48a-a58b77ba113d"
+    }
+  ],
+  "macros": [
+    {
+      "name": "QuickThoughtMacro",
+      "id": "f02b0450-873f-42ae-bcb8-d97e7daaae3d",
+      "commands": [
+        {
+          "name": "Quickthought Template",
+          "type": "NestedChoice",
+          "id": "91955182-5f6a-48f4-a84a-0b3762b0ab98",
+          "choice": {
+            "id": "e8210bfd-bca8-474e-b3c9-7d5a2ab8b547",
+            "name": "Quickthought Template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Quick Thought.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Thought Macro",
+          "type": "NestedChoice",
+          "id": "b410aade-d414-44df-a521-245ae3f72f48",
+          "choice": {
+            "id": "94882ca5-650c-4475-b942-7ad9cca4bffa",
+            "name": "Thought Macro",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": false,
+              "format": ""
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## Thought",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro",
+      "id": "44f3793f-1193-4750-b48a-a58b77ba113d",
+      "commands": [
+        {
+          "name": "Quick Thought",
+          "type": "Choice",
+          "id": "4df50dd6-60fb-4e13-afe1-6bc400d22de2",
+          "choiceId": "3ee75470-0b08-4792-9f48-de38f235afe4"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "9121437f-20bf-4870-afc0-4c8bf32325c1",
+          "time": 1000
+        },
+        {
+          "name": "Thought Value",
+          "type": "NestedChoice",
+          "id": "3029c082-1fcd-420f-af96-ffe151f32e99",
+          "choice": {
+            "id": "c5cd113b-5d83-4565-bff1-3da680a1a0fb",
+            "name": "Thought Value",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- ### **{{value}}**"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "# Thought",
+              "insertAtEnd": true,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "b6aca630-6298-47f3-bd10-508204930487",
+          "time": 1000
+        },
+        {
+          "name": "Context Value",
+          "type": "NestedChoice",
+          "id": "3d473de0-cc14-4758-8acf-e373b17a9be8",
+          "choice": {
+            "id": "bdbf9378-8e0d-41f0-8502-f2784a33d69f",
+            "name": "Context Value",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- ### {{value}}"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "Context",
+              "insertAtEnd": true,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "60ae73d2-0ddc-42ad-9ac2-2768546daf04",
+          "time": 1000
+        },
+        {
+          "name": "Feelings Value",
+          "type": "NestedChoice",
+          "id": "66558c09-8d13-4993-bc88-71abe6cd3941",
+          "choice": {
+            "id": "d6b5d26f-17fc-4d3f-b2eb-e976b9a86aed",
+            "name": "Feelings Value",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- ### {{value}}"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "Feelings",
+              "insertAtEnd": true,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "b0641fb2-5ffb-4a5d-958a-74a641eeb8ba",
+          "time": 1000
+        },
+        {
+          "name": "Did I Learn Anything? Value",
+          "type": "NestedChoice",
+          "id": "b78999f3-ed05-44ff-a28b-76e1ce89fb6b",
+          "choice": {
+            "id": "104c873e-3105-479a-96eb-b0fc9550b621",
+            "name": "Did I Learn Anything? Value",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- ### {{value}}"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "Did I learn anything?",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "bottom"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "1.11.0",
+  "disableOnlineFeatures": true,
+  "enableRibbonIcon": true,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4-turbo",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o-mini",
+            "maxTokens": 128000
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "accentColor": "#ff85d2",
+  "cssTheme": "Tokyo Night",
+  "baseFontSize": 14,
+  "enabledCssSnippets": [
+    "dataview",
+    "color-sidebar",
+    "daily-colors"
+  ]
+}

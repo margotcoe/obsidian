@@ -1,0 +1,293 @@
+{
+  "main": {
+    "id": "52867d2917f4d537",
+    "type": "split",
+    "children": [
+      {
+        "id": "b90585c3490eb75c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55db78ecb7fbe2bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Quick Thought.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e23cd5ef79ee96a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Resources/quick_thought/07.22.24_jerk off.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73c7fde3c090f593",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Quick Thought.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7aa4b95d9d53ef1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "52b3d4005f1ea047",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/Home Server.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34bff8dbb0e9ce6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Resources/lists_and_rankings/animals.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ce50c659833fb27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/Home Server.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b27925bbf2c269f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f9d9702597295e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. Archive/life solves all of our problems against our will.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eddc0bfdf20a9e2e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "98e00d4e620c3c5a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "092ee16c56064824",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "fb09d4c775fdd929",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "6648b928ea23d2f1",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "61dd238b13ed2b2c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1873d1e23847df23",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "4. Archive/life solves all of our problems against our will.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "a75777add3a44b17",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "4. Archive/life solves all of our problems against our will.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c82bf7aafc8df72b",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "4. Archive/life solves all of our problems against our will.md"
+          }
+        }
+      },
+      {
+        "id": "8049adba196a0973",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "quickadd:QuickAdd": false
+    }
+  },
+  "active": "7f9d9702597295e0",
+  "lastOpenFiles": [
+    "4. Archive/do i owe your love.md",
+    "3. Resources/lists_and_rankings/words and defintions.md",
+    "3. Resources/lists_and_rankings/animals.md",
+    "3. Resources/stats.md",
+    "1. Projects/Home Server.md",
+    "2. Area's/My Linux.md",
+    "2. Area's/My Area's.md",
+    "3. Resources/quick_thought/08.03.24_nothing painted blue name.md",
+    "todo.md",
+    "unsorted.md",
+    "3. Resources/quick_thought/08.03.24_showerthought^2.md",
+    "3. Resources/lists_and_rankings/hot celebrity boys.md",
+    "3. Resources/lists_and_rankings/words of power.md",
+    "2. Area's/My Writing.md",
+    "3. Resources/quick_thought/08.01.24_items of faith.md",
+    "2. Area's/My Lists & Rankings.md",
+    "3. Resources/quick_thought/07.22.24_i love my friend elly.md",
+    "3. Resources/quick_thought/07.28.24_book binding.md",
+    "3. Resources/friends/Elly.md",
+    "3. Resources/friends/Katherine.md",
+    "3. Resources/lists_and_rankings/Mountain Goats Associations.md",
+    "3. Resources/lists_and_rankings/0. animals.md",
+    "linux_stuff.md",
+    "4. Archive/life solves all of our problems against our will.md",
+    "4. Archive/beautiful things.md",
+    "4. Archive/Bad Thing Board.canvas",
+    "4. Archive/my name is *redacted*.md",
+    "picture - linux diagram.png",
+    "3. Resources/Bad Thing Board.canvas",
+    "3. Resources/Poetry",
+    "3. Resources/home_server/ssh_keys",
+    "3. Resources/friends",
+    "3. Resources/lists_and_rankings",
+    "3. Resources/art",
+    "2. Area's/friends",
+    "3. Resources/home_server",
+    "3. Resources/quick_thought",
+    "Statistics",
+    "Bad Thing Board.canvas",
+    "Untitled.canvas",
+    "Templates",
+    "IMG_1802.jpeg"
+  ]
+}

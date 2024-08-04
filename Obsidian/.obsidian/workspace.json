@@ -1,0 +1,298 @@
+{
+  "main": {
+    "id": "3100a033b87cf14a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5b1846fa8420729",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46276ee7ca149d1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Resources/friends/Katherine.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e948d9bc4c19ccf9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Area's/My Area's.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd9d656b8e3507b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99 - Meta/Templates/Daily Template.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98068cca4d2f80cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Resources/quick_thought/08.03.24_set a goal set a goal.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bac72ddcc5203d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07 Archive/Poetry/The Moon.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "744c569638275099",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "5c5d7f257335ab4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3c496ad652c4f3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99 - Meta/Templates/Daily Template.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b2a8215941fadca3",
+    "type": "split",
+    "children": [
+      {
+        "id": "2933aadc252f88a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "498e363c5b249f5a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "177c908f3278f518",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5deea64926cbc08d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 229.5
+  },
+  "right": {
+    "id": "a6e8a00498e30ced",
+    "type": "split",
+    "children": [
+      {
+        "id": "2cef0633f3bcb60f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68f1e953d1e78017",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "99 - Meta/Templates/Daily Template.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b7f0256fbf3a5525",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "99 - Meta/Templates/Daily Template.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "134caa451e79a813",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "24915385c807567d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "99 - Meta/Templates/Daily Template.md"
+              }
+            }
+          },
+          {
+            "id": "24905e0ed0edef7c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b25ec4270cce149",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "quickadd:QuickAdd": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
+    }
+  },
+  "active": "cd9d656b8e3507b7",
+  "lastOpenFiles": [
+    "README.md",
+    "99 - Meta/Templates/Daily Template.md",
+    "080324.md",
+    "02 Area's/My Area's.md",
+    "99 - Meta",
+    "00 -Maps of Content",
+    "06 - Daily",
+    "05 - Fleeting",
+    "04 - Permanent",
+    "01 Projects/Home Server.md",
+    "03 Resources/quick_thought/07.22.24_i love my girlfriend .md",
+    "linux_stuff.md",
+    "03 Resources/videos.md",
+    "03 Resources/quick_thought/08.03.24_nothing painted blue name.md",
+    "03 Resources/quick_thought/08.03.24_set a goal set a goal.md",
+    "03 Resources/friends/Katherine.md",
+    "vim.md",
+    "02 Area's/My Linux.md",
+    "03 Resources/lists_and_rankings/books.md",
+    "03 Resources/lists_and_rankings/animals.md",
+    "02 Area's/My Lists & Rankings.md",
+    "03 Resources/lists_and_rankings/Mountain Goats Associations.md",
+    "03 Resources/quick_thought/07.28.24_book binding.md",
+    "02 Area's/My Friends.md",
+    "4. Archive/mountain_goats_associations.md",
+    "07 Archive/my name is *redacted*.md",
+    "03 Resources/friends/Maria.md",
+    "03 Resources/friends/Hannah.md",
+    "todo.md",
+    "03 Resources/friends/Sydney.md",
+    "03 Resources/friends/Ryan.md",
+    "07 Archive/Bad Thing Board.canvas",
+    "Untitled.canvas",
+    "picture - linux diagram.png",
+    "Pasted image 20240727095936.png",
+    "Pasted image 20240727095943.png",
+    "Pasted image 20240723235854.png",
+    "untitled folder",
+    "03 Resources/friends",
+    "03 Resources/home_server",
+    "03 Resources/quick_thought",
+    "Templates/Areas/Friends/Elly"
+  ]
+}

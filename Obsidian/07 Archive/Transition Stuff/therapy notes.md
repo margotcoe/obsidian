@@ -1,0 +1,11 @@
+- i don’t feel like me
+- numb 
+- frustrated 
+- alienated isolated 
+- moments of extended freak out
+- hyperventilating 
+- elevated hr 
+- sense of dread
+- shaking
+- throwing up 2024-02-04 08:02
+- when i try to make myself do something it’s almost like something else takes control and disallows me. if i want to fill my glass of water, ill reach for the faucet and my hand will stop right before turning the water on and my hand will shake. when i eventually get the water on, my hand won’t pick up the glass. if i pick up the glass, my hand won’t orient it properly under the water to fill, just letting water pour over the outside of the cup. if i get it filled, the whole way to my mouth, i’ll have the intense urge to drop the glass on the floor and let it shatter, sometimes i do 9am 2024-02-04
